@@ -87,7 +87,8 @@ class Program
                     foreach(string line in lines)
                     {
                         string[] parts = line.Split(",");
-                        string date = parts[0];                                                                         string writting = parts[1];     
+                        string date = parts[0];                                                                         
+                        string writting = parts[1];     
 
                         using (StreamWriter outputFile = new StreamWriter(fileName, true))
                         {
